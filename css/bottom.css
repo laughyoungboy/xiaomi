@@ -1,0 +1,73 @@
+/* 底部导航 */
+.footer{
+	width: 375px;
+	display: flex;
+	background: #fff;
+	box-shadow: 0 -2px 10px #ccc;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.footer .ficon{
+	width: 20%;
+	height: 52px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.footer .ficon .img{
+	width: 21px;
+	height: 21px;
+	background-size: 100%;
+}
+.footer .ficon span{
+	color: #999;
+}
+.footer .ficon:nth-child(1) .img{
+	background-image: url(../img/homepage1.png);
+}
+.footer .ficon:nth-child(2) .img{
+	background-image: url(../img/sorting1.png);
+}
+.footer .ficon:nth-child(3) .img{
+	background-image: url(../img/planet1.png);
+}
+.footer .ficon:nth-child(4) .img{
+	background-image: url(../img/shopping1.png);
+}
+.footer .ficon:nth-child(5) .img{
+	background-image: url(../img/user1.png);
+}
+/* 选中状态 */
+.footer .ficon:nth-child(1):hover .img{
+	background-image: url(../img/homepage2.png);
+}
+.footer .ficon:nth-child(2):hover .img{
+	background-image: url(../img/sorting2.png);
+}
+.footer .ficon:nth-child(3):hover .img{
+	background-image: url(../img/planet2.png);
+}
+.footer .ficon:nth-child(4):hover .img{
+	background-image: url(../img/shopping2.png);
+}
+.footer .ficon:nth-child(5):hover .img{
+	background-image: url(../img/user2.png);
+}
+/* 选中状态文字颜色 */
+.footer .ficon:nth-child(1):hover span{
+	color: #ff6700;
+}
+.footer .ficon:nth-child(2):hover span{
+	color: #ff6700;
+}
+.footer .ficon:nth-child(3):hover span{
+	color: #ff6700;
+}
+.footer .ficon:nth-child(4):hover span{
+	color: #ff6700;
+}
+.footer .ficon:nth-child(5):hover span{
+	color: #ff6700;
+}
